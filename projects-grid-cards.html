@@ -7,22 +7,31 @@
     <title>Projects - Bionry</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cookie">
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
+    <link rel="stylesheet" href="assets/css/Pretty-Header.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-white portfolio-navbar gradient">
-        <div class="container"><a class="navbar-brand logo" href="#">Bionry</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navbarNav"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse"
-                id="navbarNav">
-                <ul class="nav navbar-nav ml-auto">
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link active" href="projects-grid-cards.html">Projects</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="cv.html">CV</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="hire-me.html">Hire me</a></li>
+    <nav class="navbar navbar-light navbar-expand-md custom-header">
+        <div class="container-fluid">
+            <div><a class="navbar-brand" href="#">Bionry.tech</a></div><a class="navbar-brand" href="#">Mike</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navbar-collapse"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div
+                class="collapse navbar-collapse" id="navbar-collapse">
+                <ul class="nav navbar-nav links">
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#" style="font-family: Lato, sans-serif;">Home</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#" style="font-family: Lato, sans-serif;">Portfolio</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#" style="font-family: Lato, sans-serif;">Hire</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link custom-navbar" href="#" style="font-family: Lato, sans-serif;">Contact</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link text-left custom-navbar" href="#" style="color: rgb(255,255,255);background-color: #292c2f;width: 65;height: 32;font-family: Lato, sans-serif;font-size: 14;">Donate</a></li>
                 </ul>
-            </div>
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item dropdown show"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="true" href="#">Options</a>
+                        <div class="dropdown-menu dropdown-menu-right show" role="menu"><a class="dropdown-item" role="presentation" href="#">Log in</a><a class="dropdown-item" role="presentation" href="#">Donate</a></div>
+                    </li>
+                </ul>
+        </div>
         </div>
     </nav>
     <main class="page projects-page">
@@ -86,8 +95,8 @@
     </main>
     <footer class="page-footer">
         <div class="container">
-            <div class="links"><a href="#">About me</a><a href="#">Contact me</a><a href="#">Projects</a></div>
             <div class="social-icons"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-instagram-outline"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a></div>
+            <div class="links"><a href="cv.html">About me</a><a href="contact.html">Contact me</a><a href="projects-with-sidebar.html">Projects</a></div>
         </div>
     </footer>
     <script src="assets/js/jquery.min.js"></script>
